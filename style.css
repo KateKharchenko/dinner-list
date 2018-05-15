@@ -1,0 +1,73 @@
+/* h1 { 
+	color: #eb7e7f;
+	font-size: 30px;
+	background: #4a4f56;
+}
+h3 {
+	color: #eb7e7f;
+	font-size: 15px;
+	background: #4a4f56;
+} */
+
+html{
+	height: 100%; /* что бы рамка была по всему экрану */
+}
+.back {
+	color: #f9f9f9; 
+}
+body {
+		background-color: #3b3f45;
+		outline: 23px solid white;
+		height: 100%;/* что бы рамка была по всему экрану */
+
+		/* outline: 23px solid white; */
+}
+.ramka {
+	border-color: #3b3f45;
+	border-width: 23px;
+}
+main {
+	/* background-color: #3b3f45; */
+	font-size: 20px;
+	text-align: left;
+	margin: 0 auto; 
+	width: 50%;
+	3b3f45
+
+}
+header, footer{
+	color: #eb7e7f;/* цвет шрифта */
+	font-size: 20px; /* размер шрифта */
+	background: #4a4f56; 
+	text-align: center; /* выравнивание по центру */
+	/* background-color: #3b3f45; цвет фона за серединой */
+
+}
+
+footer {
+	
+	margin: 0 auto; 
+	width: 50%;
+}
+
+
+li{
+	list-style-type: none; /* убирает кружечки */
+	width: 100%;
+	
+}
+
+.shopping-list {
+	background-color: #88839e;
+	border: 0;
+	padding: 0px;
+}
+
+
+
+.shopping-list li:nth-of-type(even) {
+	background-color: #7a7593;
+}
+
+
+
